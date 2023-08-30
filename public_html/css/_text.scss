@@ -1,0 +1,109 @@
+@font-face
+{
+  font-family:Raleway;
+  font-style:normal;
+  font-weight:400;src:url(https://fonts.gstatic.com/s/raleway/v18/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrQ.ttf) format('truetype')
+}
+
+body, h1, h5, p {
+  font-family:Raleway,sans-serif
+}
+
+body,html {
+  height:100%;
+  font-family:Raleway, sans-serif;
+  font-size:16px;
+  line-height:1.5;
+  margin:0
+}
+
+h1 { font-size:40px }
+h2 { font-size:30px }
+h3 { font-size:24px }
+h4 { font-size:20px }
+h5 {
+  font-size:16px;
+  font-style: italic;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:"Segoe UI",Arial,sans-serif;
+  font-weight:400;
+  margin:10px 0
+}
+
+
+a {
+  font-family:Raleway;
+  color:inherit
+}
+
+.init-text-white {
+  color:#fff!important
+}
+
+
+
+.init-small {
+  font-size:13px!important
+}
+
+.init-large {
+  font-size:18px!important
+}
+
+.init-xlarge {
+  font-size:24px!important
+}
+
+.init-jumbo {
+  font-size:94px!important
+}
+
+
+.init-text-black {
+  color:rgb(0, 0, 0)!important;
+}
+
+#init-text-black {
+  color:rgb(0, 0, 0)!important;
+}
+
+textarea {
+    font-size:15px;
+    font-family:Raleway, sans-serif;
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    width: 100%;
+}
+
+h3.init-blog-articlehead {
+  margin: 60px 0 0 0;
+  color: rgb(151, 151, 151);
+}
+
+article.init-blog-commentwhitebox {
+    float: left;
+    padding: 15px 20px 20px 20px;
+    margin: 0 0px 100px 0px;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+h4.init-blog-commenthead {
+    margin-top: 20px;
+    color: rgb(151, 151, 151);
+    letter-spacing: 3px;
+}
+
+p.init-blog-commentdetails {
+  font-size: 13px;
+}
+
+.init-blog-nocomment{
+  font-size:13px;
+  font-style: italic;
+}

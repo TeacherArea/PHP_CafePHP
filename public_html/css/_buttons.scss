@@ -1,0 +1,172 @@
+button, input {
+  font:inherit;
+  margin:0;
+  overflow:visible
+}
+
+/* Modal */
+.init-display-topleft { 
+    position:relative;
+    left:0;
+    top:0
+}
+
+.init-table {
+    border-collapse:collapse;
+    border-spacing:0;
+    width:100%;
+    display:table
+}
+
+.init-button { 
+    border:1px solid white;
+    display:inline-block;
+    padding:5px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap
+}
+
+.init-button:visited {
+    text-decoration: none;
+}
+
+.init-button {
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+
+.init-button:disabled {
+    cursor:not-allowed;
+    opacity:.3
+}
+
+:disabled * {
+    pointer-events:none
+}
+
+.init-modal {
+    z-index:3;
+    display:none;
+    padding-top:100px;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    overflow:auto;
+    background-color:#000;
+    background-color:rgba(0,0,0,.4)
+}
+
+.init-modal-content {
+    margin:auto;
+    background-color:#fff;
+    position:relative;
+    padding:0;
+    outline:0;
+    width:600px
+}
+
+.init-block {
+    display:block;
+    width:100%
+}
+
+.init-container:after, .init-container:before {
+    content:"";
+    display:table;
+    clear:both
+}
+
+.init-content { 
+    margin-left:auto;
+    margin-right:auto
+}
+
+.init-content {
+    max-width:980px
+}
+
+@media (max-width:600px) {
+    .init-modal-content {
+        margin:0 10px;
+        width:auto!important
+    }
+    .init-modal {
+        padding-top:30px
+    }
+}
+
+@media (max-width:768px) {
+    .init-modal-content {
+        width:500px
+    }
+    .init-modal {
+        padding-top:50px
+    }
+}
+
+@media (min-width:993px) {
+    .init-modal-content {
+        width:900px
+    }
+}
+
+@media (max-width:992px) {
+    .init-main {
+        margin-left:0!important;
+        margin-right:0!important
+    }
+}
+
+.init-display-topright {
+    position:absolute;
+    right:0;top:0
+}
+
+.init-display-middle {
+  position:absolute;
+  top:20%;
+  left:50%;
+  background-color:rgba(0,0,0,0.9);
+  padding-left: 10px;
+  padding-right: 10px;
+  transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%)
+}
+
+@keyframes fading {
+  0% {
+      opacity:0
+    }
+    50% {
+        opacity:1
+    }
+    100% {
+        opacity:0
+    }
+}
+
+.init-blackbutton { 
+    border:1px solid black!important;
+    display:inline-block;
+    padding:5px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap
+}
