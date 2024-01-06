@@ -40,7 +40,7 @@ En sådan struktur hittas ofta på Internet, och används såväl av profesionel
 
 ```
 
-## Här är en kort beskrivning av mapparna och filerna:
+### Kort beskrivning av mappar och filer
 - public_html/ innehåller allt som är tillgängligt för besökare via webben. I denna mapp finns också undermappar för bloggen, kommentarer och administrativa funktioner.
 
 - public_html/templates/ innehåller dina HTML-templates, inklusive header.php, footer.php och en article_template.php som används för att generera bloggartiklarnas layout.
