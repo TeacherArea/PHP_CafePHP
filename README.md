@@ -58,11 +58,11 @@ En sådan struktur hittas ofta på Internet, och används såväl av profesionel
 
 ## Fördelar
 
-- Anpassningsbarhet: Du har full kontroll över strukturen och kan anpassa den exakt efter ditt projekts behov och krav. Det innebär att du inte behöver följa några strikta konventioner som ofta följs i ramverk.
+- Med full, om än tillfällig, kontroll över strukturen kan den anpassas exakt efter projektets behov och krav. Några strikta konventioner behöver inte följas.
 
-- Lätt att förstå: En enkel struktur kan vara lätt att förstå och hantera, särskilt om du är ensamutvecklare eller om projektet är relativt litet.
+- Strukturen är ofta lätt att förstå och hantera, särskilt för ensamutvecklare och om projektet är relativt litet.
 
-- Minimal inlärningskurva: Om du inte är bekant med ett specifikt ramverk, behöver du inte lära dig dess struktur och konventioner, vilket kan spara tid och möjliggöra snabbare utveckling.
+- Minimal inlärningskurva. Om du inte är bekant med ett specifikt ramverk behövs inte heller inlärning av andra struktur och konventioner vilket kan spara tid och möjliggöra snabbare utveckling.
 
 ## Nackdelar
 
