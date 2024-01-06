@@ -4,7 +4,7 @@
 
 Detta projekt är byggt efter en slags "Anpassad enkel struktur", eller enbart "Enkel struktur". Det är en struktur som är skapad specifikt för ett visst projekt och inte nödvändigtvis baserad på ett befintligt ramverk eller en standardiserad struktur.
 
-En sådan struktur hittas ofta på Internet, och används såväl av profesionella (förbluffande ofta) som mindre erfarna. På filnivå kan en sådan struktur se ut ungefär så här (lite mer utökat än för just aktuellt projekt; Café PHP i en kostym av "Enkel struktur"):
+En sådan struktur hittas ofta på Internet, och används såväl av profesionella (förbluffande ofta) som mindre erfarna. På filnivå kan en sådan struktur se ut ungefär så här (lite mer utökat och inte helt överenstämmande  för just aktuellt projekt; Café PHP i en kostym av "Enkel struktur"):
 
 ```
 - configure/
