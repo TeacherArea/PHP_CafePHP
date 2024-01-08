@@ -14,7 +14,7 @@
         //filtrera snvändarens input från otillåtna tecken
         $fname = trim(filter_input(INPUT_POST, "firstname", FILTER_SANITIZE_FULL_SPECIAL_CHARS));
         $lname = trim(filter_input(INPUT_POST, "lastname", FILTER_SANITIZE_FULL_SPECIAL_CHARS));
-        $email = trim(filter_input(INPUT_POST, "email", FILTER_SANITIZE_FULL_SPECIAL_CHARS));
+        $email = trim(filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL));
         $msg   = trim(filter_input(INPUT_POST, "message", FILTER_SANITIZE_FULL_SPECIAL_CHARS));
       
         //dubbelkolla (lita inte på html/css) så fälten inte är tomma 
@@ -26,7 +26,7 @@
         }
 
         //Rekonstruera meddelandets alla värden till en variabel
-        $to = "mail@sewilius.se";
+        $to = "addresse@domain.se";
         $subject = $fname . " " . $lname . " sents us a message.";
         $message = "Name: $fname $lname\r\n";
         $message .= "Email: $email\r\n";
